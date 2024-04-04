@@ -1,0 +1,10 @@
+region                    = "us-east-1"
+availability_zones        = ["us-east-1a", "us-east-1b"]
+workstation_ip            = "123.21.97.120/32"
+vpc_cidr_block            = "10.10.0.0/16"
+application_instance_type = "t3.micro"
+bastion_instance_type     = "t2.micro"
+mongodb_instance_type     = "t3.micro"
+key_path                  = "./keypair/udemy-kp.pub"
+vpc_private_subnets       = ["10.10.1.0/24", "10.10.2.0/24"]
+vpc_public_subnets        = ["10.10.101.0/24", "10.10.102.0/24"]
